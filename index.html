@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3afcf9f99b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class=" header-text">
+                <p> Web Developer</p>
+                <h1>Hello & Namaste, I'm  <span>Subash Bishwokarma</span><br>  IT student from Kathmandu, Nepal</h1>
+
+            </div>
+        </div>
+
+</div>
+<!------About---->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src ="Images/subash.jpg">
+            </div>
+          
+            <div class="about-col-2">
+                <h1 class="aboutt">About Me</h1>
+                <p>Hello my name is bidya dip bk, i am orginally from syangja district 
+                    and i am a web developer 
+                </p>
+
+                <div class="tabs">
+                    <p class="tab-links activelink" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+
+                </div>
+                <div class="tab-contents activetab" id="skills"> 
+                    <ul>
+                        <li><span>UX/UI</span><br>Designing Web interfaces</li>
+                        <li><span>Web Development </span><br>Web App Development </li>
+                       
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>No Experience</span><br>I'm searching jobs that suits me</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>SLC</span><br>National Golden Future English Boarding School</li>
+                        <li><span>+2</span><br>NIST-National Institute of  Science and Technology</li>
+                        <li><span>Bachelor </span><br>PCPS-Patan college For Professional Studies</li>
+                        <li><span>Unversity</span><br> University of Bedforshire</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------services---->
+<div id="services">
+    <div class="container">
+        <h1 class="about"> My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Web Design</h2>
+                <p>Design of the websites</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2> App Design</h2>
+                <p>Design of the websites</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2> UI/UX Design</h2>
+                <p>Design of the websites</p>
+                <a href="#">learn more</a>
+            </div>
+
+
+
+        </div>
+
+    </div>
+</div>
+<!-- ----portfoliio--- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="about">My Work</h1>
+        <div class="work-list">
+            <div class=work>
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3> Chat Application</h3>
+                    <p>The app will help you to chat the people around the world</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+            <div class=work>
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3> Analog clock</h3>
+                    <p>The app will help you to know the time of the particular country</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+            <div class=work>
+                <img src="Images/snake.jpg">
+                <div class="layer">
+                    <h3> Snake Game Application</h3>
+                    <p>The app will gives you fun and enjoy while you are playing this games </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- ------contact----- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="about">Contact Me</h1>
+                <p><i class="fa-solid fa-at"></i>bksubhas418@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9867251816/9824121109</p>
+                <div class="social-icons">
+                    <a  href="https://www.facebook.com/subash.bishwokarma.733/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a  href="https://www.instagram.com/subash_bishwokarma/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a  href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+              <a href="Images/BIDYADIP_BK CV.pdf" download class="btn btn2">Download my CV</a>
+
+                
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Enter your name" required>
+                <input type="text" name="email" placeholder="Enter your email" required>
+                <textarea name="messages" rows="6" placeholder="Your message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="mesge"></span>
+        </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+
+            tablink.classList.remove("activelink");
+        }
+        for (tabcontent of tabcontents){
+
+            tabcontent.classList.remove("activetab");
+        }
+        event.currentTarget.classList.add("activelink");
+        document.getElementById(tabname).classList.add("activetab");
+    }
+
+</script>
+
+
+<script>
+    var sidmenu =document.getElementById("sidemenu");
+    function openmenu(){
+        sidmenu.style.right="0";
+    }
+    function closemenu(){
+        sidmenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby1U7zeiF5OFbQDTQiJ0cNeOgLYhpjrpTx0hEyZg4YETeIwwVlpJYFwojXm-UIcXdX2Xg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const mesge =document.getElementById("mesge")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            mesge.innerHTML="Submitted Successfully"
+            setTimeout(function(){
+                mesge.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
